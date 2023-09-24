@@ -1,0 +1,199 @@
+body{
+    margin: 0%;
+}
+
+.title-container{
+    height: 100vh;
+    background-color: #e4f9f5;
+}
+
+h1{
+    text-align: center;
+    color: #66bfbf;
+    font-size: 5.625rem;
+    font-family: "Sacramento", cursive;
+    margin:0%;
+    padding-top: 50px;
+}
+
+h2{
+    text-align: center;
+    color: #66bfbf;
+    font-family: "Montserrat", sans-serif;
+    font-size: 2.5rem;
+    font-weight: normal;
+    margin: 0%;
+}
+
+h3{
+    text-align: center;
+    color: #66bfbf;
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+}
+
+.cloud-img1{
+    padding-top: 30px;
+    padding-left: 15%;
+}
+
+.cloud-img2{
+    padding-top: 28px;
+    padding-left: 70%;
+}
+
+.mountain-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.profile-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.profile-img > img{
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+    margin-top: 150px;
+    margin-bottom: 30px;
+}
+
+.profile-heading > p{
+    text-align: center;
+    font-size: 1.2rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+.hr-profile > hr{
+    margin-top: 100px;
+    border: dotted lightskyblue 10px;
+    width: 10%;
+    border-bottom: 0;
+}
+
+.hr-skills > hr{
+    margin-top: 100px;
+    border: dotted lightskyblue 10px;
+    width: 10%;
+    border-bottom: 0;
+    margin-bottom: 100px;
+}
+
+.skills-container{
+    margin:auto auto auto auto;
+    width: 50%;
+    display: inline-flexbox;
+}
+
+.skills-heading > h2{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.skills-img1-cricket > img{
+    margin-right: 20px;
+    float: left;
+    height: 250px;
+    width: 200px;
+    margin-bottom: 60px;
+}
+.skills-img2-gaming > img{
+    margin-right: 20px;
+    float: left;
+    border-radius: 50%;
+    height: 270px;
+    width: 200px;
+}
+
+.skills-info1-cricket > p{
+    text-align: justify;
+    font-size: 1rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-bottom: 100px;
+}
+
+.skills-info2-gaming > p{
+    text-align: justify;
+    font-size: 1rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.contact-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.contact-paragraph > p{
+    text-align: center;
+    font-size: 1rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-bottom: 100px;
+}
+
+.contact-button{
+    background: #11cdd4;
+  background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -o-linear-gradient(top, #11cdd4, #11999e);
+  background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  font-family: "Montserrat", sans-serif;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+  margin-bottom: 100px;
+}
+
+.contact-button:hover {
+    background: #30e3cb;
+    background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+    text-decoration: none;
+  }
+
+  .footer-container{
+    display: flex;
+    flex-direction: column;
+    height: 200px;
+    background-color: #66bfbf;
+    align-items: center;
+  }
+
+  .social-media-links{
+    margin-top: 80px;
+  }
+
+  .social-media-links > a{
+    font-family: "Montserrat", sans-serif;
+    padding: 20px;
+    text-decoration: none;
+    font-size: 15px;
+  }
+
+  .footer-copyright-text > p{
+    color: whitesmoke;
+  }
+
+  
+
+  
+
+  
+
+
+
+
